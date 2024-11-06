@@ -19,12 +19,12 @@ const AdminTable = ({ users, onDelete, onEdit }) => {
               <td className="py-3 px-6 text-left border-r border-gray-300">{user.lastName}</td>
               <td className="py-3 px-6 text-left border-r border-gray-300">{user.position}</td>
               <td className="py-3 px-6 text-left space-x-2">
-                <button 
+                {/* <button 
                   onClick={() => onEdit(user.id)} 
                   className="bg-yellow-500 text-white rounded py-1 px-3 hover:bg-yellow-700"
                 >
                   Edit
-                </button>
+                </button> */}
                 <button 
                   onClick={() => onDelete(user.id)} 
                   className="bg-red-500 text-white rounded py-1 px-3 hover:bg-red-700"

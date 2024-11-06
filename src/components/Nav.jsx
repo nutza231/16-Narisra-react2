@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Nav() {
   return (
     <header className="bg-gray-800 p-4 flex justify-between items-center">
-      <h1 className="text-xl font-bold text-white">02 - ANON - REACT</h1>
+      <h1 className="text-xl font-bold text-white">16-Narisra</h1>
       <nav>
         <ul className="flex space-x-6">
           <li>
